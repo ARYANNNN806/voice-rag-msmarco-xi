@@ -1,0 +1,167 @@
+{
+  "n_queries": 190,
+  "wall_clock_ms": 241.5,
+  "queries_per_sec": 786.6,
+  "total_ms": {
+    "p50": 1.269,
+    "p70": 1.376,
+    "p90": 1.658,
+    "p100": 2.017,
+    "mean": 1.198,
+    "min": 0.004,
+    "max": 2.017
+  },
+  "retrieve_ms": {
+    "p50": 0.389,
+    "p70": 0.434,
+    "p90": 0.488,
+    "p100": 0.583,
+    "mean": 0.368
+  },
+  "generate_ms": {
+    "p50": 0.695,
+    "p70": 0.793,
+    "p90": 1.046,
+    "p100": 1.298,
+    "mean": 0.684
+  },
+  "stt_ms": {
+    "mean": 0.0,
+    "note": "STT is wire-bound and not part of the local 200ms budget"
+  },
+  "budget_ms": 200.0,
+  "budget_breaches": 0,
+  "breach_pct": 0.0,
+  "answer_modes": {
+    "refused": 109,
+    "extractive": 75,
+    "greeting": 6
+  },
+  "groundedness": {
+    "mean": 0.395,
+    "min": 0.0,
+    "max": 1.0
+  },
+  "sample_results": [
+    {
+      "query": "कॉर्पोरेशन क्या है?",
+      "ok": true,
+      "answer_mode": "refused",
+      "total_ms": 1.244,
+      "stages": {
+        "stt_ms": 0.0,
+        "retrieve_ms": 0.492,
+        "generate_ms": 0.556
+      },
+      "groundedness": 0.0
+    },
+    {
+      "query": "भारत की राजधानी क्या है?",
+      "ok": true,
+      "answer_mode": "refused",
+      "total_ms": 1.478,
+      "stages": {
+        "stt_ms": 0.0,
+        "retrieve_ms": 0.442,
+        "generate_ms": 0.854
+      },
+      "groundedness": 0.0
+    },
+    {
+      "query": "हृदय कैसे काम करता है?",
+      "ok": true,
+      "answer_mode": "refused",
+      "total_ms": 1.32,
+      "stages": {
+        "stt_ms": 0.0,
+        "retrieve_ms": 0.369,
+        "generate_ms": 0.786
+      },
+      "groundedness": 0.0
+    },
+    {
+      "query": "मैनहैटन परियोजना कब शुरू हुई?",
+      "ok": true,
+      "answer_mode": "refused",
+      "total_ms": 1.708,
+      "stages": {
+        "stt_ms": 0.0,
+        "retrieve_ms": 0.426,
+        "generate_ms": 1.071
+      },
+      "groundedness": 0.0
+    },
+    {
+      "query": "कॉर्पोरेशन म्हणजे काय?",
+      "ok": true,
+      "answer_mode": "refused",
+      "total_ms": 1.311,
+      "stages": {
+        "stt_ms": 0.0,
+        "retrieve_ms": 0.416,
+        "generate_ms": 0.711
+      },
+      "groundedness": 0.0
+    },
+    {
+      "query": "भारताची राजधानी कोणती?",
+      "ok": true,
+      "answer_mode": "refused",
+      "total_ms": 1.599,
+      "stages": {
+        "stt_ms": 0.0,
+        "retrieve_ms": 0.345,
+        "generate_ms": 1.087
+      },
+      "groundedness": 0.0
+    },
+    {
+      "query": "இதயம் எப்படி வேலை செய்கிறது?",
+      "ok": true,
+      "answer_mode": "refused",
+      "total_ms": 1.356,
+      "stages": {
+        "stt_ms": 0.0,
+        "retrieve_ms": 0.423,
+        "generate_ms": 0.776
+      },
+      "groundedness": 0.0
+    },
+    {
+      "query": "இந்தியாவின் தலைநகரம் என்ன?",
+      "ok": true,
+      "answer_mode": "refused",
+      "total_ms": 1.201,
+      "stages": {
+        "stt_ms": 0.0,
+        "retrieve_ms": 0.391,
+        "generate_ms": 0.667
+      },
+      "groundedness": 0.0
+    },
+    {
+      "query": "কর্পোরেশন কি?",
+      "ok": true,
+      "answer_mode": "refused",
+      "total_ms": 1.048,
+      "stages": {
+        "stt_ms": 0.0,
+        "retrieve_ms": 0.256,
+        "generate_ms": 0.664
+      },
+      "groundedness": 0.0
+    },
+    {
+      "query": "ভারতের রাজধানী কি?",
+      "ok": true,
+      "answer_mode": "refused",
+      "total_ms": 1.116,
+      "stages": {
+        "stt_ms": 0.0,
+        "retrieve_ms": 0.431,
+        "generate_ms": 0.561
+      },
+      "groundedness": 0.0
+    }
+  ]
+}
